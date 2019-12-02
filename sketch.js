@@ -54,7 +54,7 @@ restart.visible = false;
   trex.addAnimation("dead", trex_collided);
   trex.scale = 0.5;
   
-  ground = createSprite(900,180,400,20);
+  ground = createSprite(1000,180,400,20);
   ground.addImage("ground",groundImage);
   ground.x = ground.width /2;
   ground.velocityX = -4;
